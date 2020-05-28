@@ -1,0 +1,42 @@
+{
+  "content": {
+    "model": "model/svm-content/model-svm.sav",
+    "vectorizer": "model/svm-content/vectorizer-svm.sav",
+    "selector": "model/svm-content/selector-svm.sav",
+    "data-path": "data/data-content/",
+    "data-train": "content-data-1.json"
+  },
+  "batdongsan": {
+    "model": "model/svm-url/svm-batdongsan/model-svm.sav",
+    "vectorizer": "model/svm-url/svm-batdongsan/vectorizer-svm.sav",
+    "selector": "model/svm-url/svm-batdongsan/selector-svm.sav",
+    "data-path": "data/data-url/batdongsan/",
+    "data-train": "batdongsan.json",
+    "data-test": "batdongsan-test.json"
+  },
+  "dothi": {
+    "model": "model/svm-url/svm-dothi/model-svm.sav",
+    "vectorizer": "model/svm-url/svm-dothi/vectorizer-svm.sav",
+    "selector": "model/svm-url/svm-dothi/selector-svm.sav",
+    "data-path": "data/data-url/dothi/",
+    "data-train": "dothi.json",
+    "data-test": "dothi-test.json"
+  },
+  "alonhadat": {
+    "model": "model/svm-url/svm-alonhadat/model-svm.sav",
+    "vectorizer": "model/svm-url/svm-alonhadat/vectorizer-svm.sav",
+    "selector": "model/svm-url/svm-alonhadat/selector-svm.sav",
+    "data-path": "data/data-url/alonhadat/",
+    "data-train": "alonhadat.json",
+    "data-test": "alonhadat-test.json"
+  },
+  "homedy": {
+    "model": "model/svm-url/svm-homedy/model-svm.sav",
+    "vectorizer": "model/svm-url/svm-homedy/vectorizer-svm.sav",
+    "selector": "model/svm-url/svm-homedy/selector-svm.sav",
+    "data-path": "data/data-url/homedy/",
+    "data-train": "homedy.json",
+    "data-test": "homedy-test.json"
+  },
+  "list-model": ["batdongsan", "dothi", "alonhadat", "homedy"]
+}

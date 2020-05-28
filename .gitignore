@@ -1,0 +1,7 @@
+.idea
+*.idea
+.idea/*
+*.idea/*
+data/classifyurl/*
+sent2vec/*
+venv/*
